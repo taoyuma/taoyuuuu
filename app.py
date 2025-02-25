@@ -8,7 +8,7 @@ file_path = "Hotel Reservations.csv"
 df = pd.read_csv(file_path)
 
 
-st.image("/Users/mataoyu/Desktop/hotel/1.jpg", use_container_width=True)
+st.image("https://raw.githubusercontent.com/taoyuma/taoyuuuu/main/1.jpg", use_container_width=True)
 st.title("Hotel Reservation Analysis of Ritz hotel Paris 🏨")
 st.markdown("""
 ### About the Dataset
@@ -41,7 +41,7 @@ st.subheader("📊 Key Data Insights")
 st.write(f"📌 Total Reservations: {len(df)}")
 st.write(f"📌 Total Unique Guests: {df['Booking_ID'].nunique()}")
 
-st.image("/Users/mataoyu/Desktop/hotel/2.jpg", caption="Hotel Booking Statistics", use_container_width=True)
+st.image("https://raw.githubusercontent.com/taoyuma/taoyuuuu/main/2.jpg", use_container_width=True)
 
 
 st.subheader("📉 Booking Cancellations")
@@ -62,7 +62,7 @@ ax.set_xticklabels(ax.get_xticklabels(), rotation=45)
 ax.set_title("Room Price by Room Type")
 st.pyplot(fig)
 
-st.image("/Users/mataoyu/Desktop/hotel/3.jpg", caption="Hotel Booking Statistics", use_container_width=True)
+st.image("https://raw.githubusercontent.com/taoyuma/taoyuuuu/main/3.jpg", use_container_width=True)
 
 
 st.subheader("📌 Recommendations for Hotel Management")
@@ -81,7 +81,7 @@ st.markdown("""
 """)
 
 
-st.image("/Users/mataoyu/Desktop/hotel/4.jpg", use_container_width=True)
+st.image("https://raw.githubusercontent.com/taoyuma/taoyuuuu/main/4.jpg", use_container_width=True)
 
 
 
