@@ -83,7 +83,5 @@ st.markdown("""
 
 st.image("/Users/mataoyu/Desktop/hotel/4.jpg", use_container_width=True)
 
-echo "streamlit
-pandas
-matplotlib
-seaborn" > requirements.txt
+
+
